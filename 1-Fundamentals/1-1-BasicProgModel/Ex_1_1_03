@@ -1,0 +1,13 @@
+public class Ex_1_1_03 
+{
+    public static void main(String[] args) 
+    {
+        int firstInt = Integer.parseInt(args[0]);
+        int secondInt = Integer.parseInt(args[1]);
+        int thirdInt = Integer.parseInt(args[2]);
+        if (firstInt == secondInt && secondInt == thirdInt)
+            StdOut.println("equal");
+        else
+            StdOut.println("not equal");
+    }
+}
